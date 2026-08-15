@@ -1,0 +1,1479 @@
+<!DOCTYPE html><html lang="ru" class="black_theme"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="de
+    верами на основе RolePlay. Средневековый сервер - Миртан.">
+    <meta name="keywords" content="Средневековый сервер, рп, roleplay, миртан, fullrp, Minecraft, майнкрафт">
+    <meta name="generator" content="Minefite (https://minefite.net/)">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+
+    <meta name="color-scheme" content="dark">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MINEFITE - РП проект Minecraft.">
+    <meta property="og:site_name" content="MINEFITE - РП проект Minecraft.">
+    <meta property="og:url" content="https://minefite.net">
+    <meta property="og:description" content="Мы проект с серверами на основе RolePlay. Средневековый сервер - Миртан.">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1113">
+    <meta property="og:image:height" content="1113">
+    <meta property="og:image" content="images/preview.png">
+
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <link rel="shortcut icon" href="images/logo.ico">
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/mainlala13332354.css">
+    <link rel="stylesheet" href="css/font.css">
+
+    <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Minefite</title>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- Новый год: стили -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page" id="body">
+    <div class="loader">
+        <svg width="91" height="18" viewBox="0 0 91 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.034 0.5H12.7523L12.6063 0.740957L8.37101 7.73324L4.15621 0.741853L4.0104 0.5H3.728H1H0.5V1V16.4V16.9H1H3.53H4.03V16.4V7.19644L7.7879 13.4243L7.93373 13.666H8.216H8.524H8.80586L8.95178 13.4249L12.71 7.21409V16.4V16.9H13.21H15.74H16.24V16.4V1V0.5H15.74H13.034ZM18.3105 16.4V16.9H18.8105H21.3405H21.8405V16.4V1V0.5H21.3405H18.8105H18.3105V1V16.4ZM33.658 0.5H33.158V1V9.85397L26.8086 0.714721L26.6594 0.5H26.398H24.418H23.918V1V16.4V16.9H24.418H26.948H27.448V16.4V7.54603L33.7973 16.6853L33.9465 16.9H34.208H36.188H36.688V16.4V1V0.5H36.188H33.658ZM49.1137 13.98V13.48H48.6137H42.2937V10.322H47.9537H48.4537V9.822V7.424V6.924H47.9537H42.2937V3.92H48.5037H49.0037V3.42V1V0.5H48.5037H39.2637H38.7637V1V16.4V16.9H39.2637H48.6137H49.1137V16.4V13.98ZM60.4497 1V0.5H59.9497H50.9297H50.4297V1V16.4V16.9H50.9297H53.4597H53.9597V16.4V10.652H59.7297H60.2297V10.152V7.732V7.232H59.7297H53.9597V3.92H59.9497H60.4497V3.42V1ZM61.8164 16.4V16.9H62.3164H64.8464H65.3464V16.4V1V0.5H64.8464H62.3164H61.8164V1V16.4ZM66.7138 0.5H66.2138V1V3.42V3.92H66.7138H70.5698V16.4V16.9H71.0698H73.5998H74.0998V16.4V3.92H77.9338H78.4338V3.42V1V0.5H77.9338H66.7138ZM89.6547 13.98V13.48H89.1547H82.8347V10.322H88.4947H88.9947V9.822V7.424V6.924H88.4947H82.8347V3.92H89.0447H89.5447V3.42V1V0.5H89.0447H79.8047H79.3047V1V16.4V16.9H79.8047H89.1547H89.6547V16.4V13.98Z" class="svg-elem-1"></path>
+        </svg>
+    </div>
+	<div id="snowContainer"></div>
+    <div class="infolist">
+        
+    </div>
+
+    <div class="wrapper bg-img-none" id="wrapper">
+        <style>
+  @import url("css/style.css");
+</style> 
+<header class="header">
+    <div class="container-md">
+        <div class="header-top">
+            <a href="/" class="header-logo">
+                <img src="images/logo-with-text.png" alt="">
+            </a>
+
+            <nav class="nav-header">
+                <a href="https://forum.minefite.net/" target="_blank" class="nav-header_link line-hover">
+                    <i class="icon-forume"></i> Форум
+                </a>
+
+                <div class="header-dropdown">
+                    <a class="nav-header_link line-hover rotate-icon" data-bs-toggle="dropdown" style="cursor: pointer;">
+                        <i class="icon-donate"></i> Донат <i class="icon-mark-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-start">
+                        <a href="https://mirtan.minefite.net/" target="_blank" class="header-dropdown_item">Миртан</a>
+                        <a href="https://anthalor.minefite.net/" target="_blank" class="header-dropdown_item">Анталор</a>
+                    </div>
+                </div>
+            </nav>
+
+            
+            <div class="header-login __adaptive">
+                <button class="button-new __outline __primary" onclick="openDownload()">
+                    <i class="icon-download"></i> Загрузить лаунчер
+                </button>
+
+                <button class="button-new __primary" onclick="openLogin()">
+                    <i class="icon-user"></i> Авторизация
+                </button>
+            </div>
+            
+
+            
+
+            <div class="header-burger">
+                <button class="burger-button" id="mobileHeaderButton" type="button" aria-label="Открыть меню" aria-expanded="false" onclick="openMobileHeader()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+        </div>
+
+        <hr class="header-line __adaptive">
+
+        <div class="header-bottom">
+            <nav class="nav-header nav-mini">
+                <button class="nav-header_link line-hover" onclick="openStartGame()">
+                    <img src="images/play.svg" alt=""> Как начать игру?
+                </button>
+                
+                <a href="https://forum.minefite.net/topic/3531-правила-игрового-сервера-миртан/" target="_blank" class="nav-header_link line-hover">
+                    <i class="icon-rulers"></i> Правила
+                </a>
+
+                <a href="/cabinet.html" class="nav-header_link line-hover">
+                    <i class="icon-lk"></i> ЛК
+                </a>
+
+                <a href="https://map.minefite.net/" target="_blank" class="nav-header_link line-hover">
+                    <i class="icon-map"></i> Карта
+                </a>
+                <div class="header-dropdown">
+                    <a class="nav-header_link line-hover rotate-icon" data-bs-toggle="dropdown" style="cursor: pointer;">
+                        <img src="/templates/default/assets-new/images/vk.svg" style="width: 23px; height: 23px; vertical-align: middle;" alt="VK"> ВКонтакте <i class="icon-mark-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-start">
+                        <a href="https://vk.com/minefite" target="_blank" class="header-dropdown_item">Общая группа</a>
+                        <a href="https://vk.com/mirtan" target="_blank" class="header-dropdown_item">Миртан</a>
+                        <a href="https://vk.com/anthalor" target="_blank" class="header-dropdown_item">Анталор</a>
+                    </div>
+                </div>
+            </nav>
+
+            <i class="icon-separation header-separator"></i>
+
+            <nav class="nav-header nav-mini">
+                <div class="header-dropdown">
+                    <a class="nav-header_link __opacity line-hover rotate-icon" data-bs-toggle="dropdown">
+                        Управляющим <i class="icon-mark-down"></i>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-start">
+                        <a href="https://admin.minefite.net/" target="_blank" class="header-dropdown_item __image" style="background-image: url(images/dropdown-admin.png);">
+                            <span>Админ панель <i class="icon-dev"></i></span>
+                        </a>
+                        <a href="https://minefite.net/rgb.php" target="_blank" class="header-dropdown_item __image" style="background-image: url(images/dropdown-rgb.png);">
+                            <span>Редактор градиентов <i class="fa fa-palette"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <button class="nav-header_link __opacity line-hover" onclick="openSponsors()">Спонсоры проекта</button>
+
+                <a href="/#news" class="nav-header_link __opacity line-hover">Новости</a>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="header-mobile" id="mobileHeader">
+        <button class="button-new __outline __primary" onclick="openDownload()">
+            <i class="icon-download"></i> Загрузить лаунчер
+        </button>
+        
+        <button class="button-new __primary" onclick="openLogin()">
+            <i class="icon-user"></i> Авторизация
+        </button>
+        
+
+        
+
+        <hr class="header-hr">
+
+        <nav class="nav-header-mobile">
+            <a href="https://forum.minefite.net/" target="_blank" class="nav-header_link line-hover">
+                <i class="icon-forume"></i> Форум
+            </a>
+
+            <div class="header-dropdown">
+                <a class="nav-header_link line-hover rotate-icon" data-bs-toggle="dropdown" style="cursor: pointer;">
+                    <i class="icon-donate"></i> Донат <i class="icon-mark-down"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <a href="https://mirtan.minefite.net/" target="_blank" class="header-dropdown_item">Миртан</a>
+                    <a href="https://anthalor.minefite.net/" target="_blank" class="header-dropdown_item">Анталор</a>
+                </div>
+            </div>
+
+            <a href="https://forum.minefite.net/topic/3531-правила-игрового-сервера-миртан/" target="_blank" class="nav-header_link line-hover">
+                <i class="icon-rulers"></i> Правила
+            </a>
+
+            <button class="nav-header_link line-hover" onclick="openStartGame()">
+                <img src="images/play.svg" alt=""> Как начать игру?
+            </button>
+
+            <a href="/cabinet.html" class="nav-header_link line-hover">
+                <i class="icon-lk"></i> ЛК
+            </a>
+
+            <a href="https://map.minefite.net/" target="_blank" class="nav-header_link line-hover">
+                <i class="icon-map"></i> Карта
+            </a>
+
+            <div class="header-dropdown">
+                <a class="nav-header_link line-hover rotate-icon" data-bs-toggle="dropdown" style="cursor: pointer;">
+                    <img src="/templates/default/assets-new/images/vk.svg" style="width: 23px; height: 23px; vertical-align: middle;" alt="VK"> ВКонтакте <i class="icon-mark-down"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-start">
+                    <a href="https://vk.com/minefite" target="_blank" class="header-dropdown_item">Общая группа</a>
+                    <a href="https://vk.com/mirtan" target="_blank" class="header-dropdown_item">Миртан</a>
+                    <a href="https://vk.com/anthalor" target="_blank" class="header-dropdown_item">Анталор</a>
+                </div>
+            </div>
+
+            <div class="header-dropdown">
+                <a class="nav-header_link __opacity line-hover rotate-icon" data-bs-toggle="dropdown">
+                    Управляющим <i class="icon-mark-down"></i>
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-end">
+                    <a href="https://admin.minefite.net/" target="_blank" class="header-dropdown_item">
+                        Админ панель <i class="icon-dev"></i>
+                    </a>
+
+                    <a href="https://minefite.net/rgb.php" target="_blank" class="header-dropdown_item">
+                            Редактор градиентов <i class="fa fa-palette"></i>
+                    </a>
+                </div>
+            </div>
+
+            <button class="nav-header_link __opacity line-hover" onclick="openSponsors()">Спонсоры проекта</button>
+
+            <a href="/#news" class="nav-header_link __opacity line-hover">Новости</a>
+        </nav>
+    </div>
+</header>
+
+
+<script>
+    function selectServer(type, id, name) {
+        $("#" + type + "_server").val(id);
+        $("#" + type + "_server_text").text(name);
+    }
+
+    function open_create_char(server_id) {
+        let server_name = server_id === 1 ? "Миртан" : "Анталор";
+        
+        $('#characterSelectModal').modal('hide');
+        
+        setTimeout(function() {
+            selectServer("link", server_id, server_name);
+            $('#linkProfileModal').modal('show');
+        }, 400);
+    }
+
+    function link_profile() {
+        $.ajax({
+            url: "/ExtraModules/cabinet.php",
+            type: "POST",
+            dataType: "json",
+            data: {
+                action: "link_profile",
+                nickname: $("#link_nickname").val(),
+                password: $("#link_password").val(),
+                server_id: $("#link_server").val(),
+                code: $("#link_2fa_code").val() // Добавлена передача кода
+            },
+            success: function(data) {
+                if (data.status === "success") {
+                    Swal.fire({ icon: "success", title: "Готово!", text: data.message, timer: 3000 }).then(() => location.reload());
+                } else {
+                    Swal.fire({icon: "error", title: "Ошибка", text: data.message});
+                }
+            }
+        });
+    }
+
+    function unlink_profile(nickname, server_id) {
+        Swal.fire({
+            title: 'Отвязка аккаунта',
+            text: 'Подтвердите отвязку персонажа ' + nickname + '.',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Отвязать',
+            cancelButtonText: 'Отмена'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '/ExtraModules/cabinet.php',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { action: 'unlink_profile', nickname: nickname, server_id: server_id },
+                    success: function(data) {
+                        if (data.status === 'success') {
+                            Swal.fire({ icon: 'success', title: 'Успех!', text: data.message, timer: 3000 }).then(() => location.reload());
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+    function change_char_auth(nickname, server_id) {
+        $.ajax({
+            url: "/ExtraModules/cabinet.php",
+            type: "POST",
+            dataType: "json",
+            data: { action: "change_char_auth", nickname: nickname, server_id: server_id },
+            success: function(data) {
+                if (data.status === "success") {
+                    location.reload();
+                } else {
+                    Swal.fire({icon: "error", title: "Ошибка", text: data.message});
+                }
+            }
+        });
+    }
+
+    // Добавлена функция сброса к основе
+    function reset_char_auth() {
+        $.ajax({
+            url: "/ExtraModules/cabinet.php",
+            type: "POST",
+            dataType: "json",
+            data: { action: "reset_char_auth" },
+            success: function(data) {
+                if (data.status === "success") {
+                    location.reload();
+                }
+            }
+        });
+    }
+
+    function buy_character_slot(server_id) {
+        let server_name = server_id === 1 ? 'Миртан' : 'Анталор';
+        Swal.fire({
+            title: 'Покупка слота',
+            text: 'Подтвердите покупку слота для сервера ' + server_name + ' за 200₽.',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Купить',
+            cancelButtonText: 'Отмена'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '/ExtraModules/cabinet.php',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { action: 'buy_slot', server_id: server_id },
+                    success: function(data) {
+                        if (data.status === 'success') {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Готово!',
+                                text: data.message,
+                                timer: 3000
+                            }).then(function() { location.reload(); });
+                        } else {
+                            Swal.fire({icon: 'error', title: 'Ошибка', text: data.message});
+                        }
+                    }
+                });
+            }
+        });
+    }
+    
+    function getCookie(name) {
+        let matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        let activeNick = getCookie('active_char_nick');
+        if (activeNick) {
+            let avatar = document.querySelector('.header-user .header-user_head');
+            let nick = document.querySelector('.header-user .header-user_name');
+            
+            if (avatar) {
+                avatar.src = 'https://minefite.net/ExtraModules/sac.php?show=head&cloak=hd&file_name=' + activeNick;
+            }
+            if (nick) {
+                nick.innerText = activeNick;
+            }
+        }
+    });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const getCookie = (name) => {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return decodeURIComponent(parts.pop().split(';').shift());
+    };
+
+    const activeNick = getCookie('active_char_nick');
+    
+    if (activeNick) {
+        const userNameEls = document.querySelectorAll('.header-user_name');
+        const userHeadEls = document.querySelectorAll('.header-user_head');
+        
+        userNameEls.forEach(el => el.textContent = activeNick);
+        userHeadEls.forEach(el => el.src = `https://minefite.net/ExtraModules/sac.php?show=head&cloak=hd&file_name=${activeNick}`);
+    }
+});
+</script>
+
+        
+
+        
+        <main class="main">
+	<!--Гирлянда
+	<div id="garland" class="garland-1"></div>
+	<script src="/templates/default/newyear/garland.js"></script> -->
+	<div class="container-md mt-75px d-flex flex-column">
+		<div class="minefite-block" data-aos="fade-up">
+			<h1 class="minefite-block__title font-title">MINEFITE - РП проект Minecraft.</h1>
+			<h5 class="minefite-block__text mt-24px">Мы проект с серверами на основе RolePlay. Средневековые сервера Миртан и Анталор, <br> как два разных материка в едином лоре.</h5>
+			<h5 class="minefite-block__text __opacity mt-12px">И другой сервер, находящийся в разработке..</h5>
+			<div class="minefite-block__buttons mt-48px">
+				<button class="button-new __primary" onclick="openRegister()">
+					Начать игру <i class="icon-play-start"></i>
+				</button>
+				<button onclick="openStartGame()" class="button-new __outline __primary">Мини гайд</button>
+			</div>
+		</div>
+
+		<hr class="body-line mt-75px">
+	</div>
+
+	<div class="container-fluid d-flex flex-column flex-md-row mt-100px" style="margin-bottom: 25px; max-width: 1600px; gap: 24px">
+		<div class="mirtan-promo" data-aos="fade-up">
+			<img loading="lazy" src="images/mirtan-promo.jpg" alt="" class="mirtan-promo__image">
+
+			<div class="mirtan-promo__online">
+				<p class="mirtan-promo__online-count">
+    <img src="images/icon-user-full.png" alt=""> 51
+</p>
+<p class="mirtan-promo__online-text">играют</p>
+			</div>
+
+			<div class="d-flex flex-column gap-6px align-items-center">
+				<h1 class="mirtan-promo__title font-another">Миртан</h1>
+				<p class="mirtan-promo__description">Крупный средневеково-фентезийный Role Play сервер.</p>
+			</div>
+
+			<a href="/servers.html" class="button-new __outline __white">
+				Подробнее <i class="icon-arrow-right"></i>
+			</a>
+		</div>
+		<div class="mirtan-promo" data-aos="fade-up">
+			<img loading="lazy" src="images/anthalor-promo.jpg" alt="" class="mirtan-promo__image">
+
+			<div class="mirtan-promo__online">
+				<p class="mirtan-promo__online-count">
+    <img src="images/icon-user-full.png" alt=""> 17
+</p>
+<p class="mirtan-promo__online-text">играют</p>
+			</div>
+
+			<div class="d-flex flex-column gap-6px align-items-center">
+				<h1 class="mirtan-promo__title font-another">Анталор</h1>
+				<p class="mirtan-promo__description">Новый средневеково-фентезийный Role Play сервер.</p>
+			</div>
+
+			<a href="/servers.html" class="button-new __outline __white">
+				Подробнее <i class="icon-arrow-right"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="container-md mb-200px d-flex flex-column">
+		<div class="d-flex flex-wrap gap-24px mt-24px">
+			<!-- Новый год: снег 
+			<div class="void-container">
+				<div class="snow-1"></div>
+			</div> -->
+			<div class="w-100 h-674px section__image" data-aos="fade-up">
+				<img loading="lazy" src="images/01.jpg" alt="" style="border-radius: 20px;">
+			</div>
+
+			<!-- Новый год: снег
+			<div class="void-container">
+				<div class="snow-5"></div>
+				<div class="snow-2"></div>
+			</div>  -->
+			<div class="w-2/3 h-485px section__image" data-aos="fade-right">
+				<img loading="lazy" src="images/05.webp" alt="" style="border-radius: 20px;">
+			</div>
+
+			<div class="w-1/3 h-485px section__image" data-aos="fade-left">
+				<img loading="lazy" src="images/06.webp" alt="" style="border-radius: 20px;">
+			</div>
+
+			<!-- Новый год: снег 
+			<div class="void-container">
+				<div class="snow-12"></div>
+			</div> -->
+			<div class="w-100 h-485px section__image">
+				<!-- <div class="snow-12"></div> -->
+				<img loading="lazy" src="images/04.webp" alt="" style="border-radius: 20px;">
+			</div>
+
+			<a href="/servers.html" class="button-new __outline __white mx-auto">
+				Перейти к серверу <i class="icon-arrow-right"></i>
+			</a>
+		</div>
+
+		<section class="section-another mt-127px" id="news">
+			<div class="d-flex justify-content-between align-items-center flex-wrap gap-24px" data-aos="fade-right">
+				<h1 class="section-another__title font-title mb-0">Новости проекта</h1>
+				
+				<div class="news-tabs d-flex gap-12px">
+					<button class="button-new __primary tab-btn" id="btn-mirtan" onclick="switchNewsTab('mirtan')">Миртан</button>
+					<button class="button-new __outline __white tab-btn" id="btn-antalor" onclick="switchNewsTab('antalor')">Анталор</button>
+				</div>
+			</div>
+
+			<div class="section-another__content news mt-24px d-flex">
+				<div id="news-mirtan" class="news-tab-content" style="display: flex; gap: 24px; flex-wrap: wrap; width: 100%;">            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/O1tttiKoedbgZsFDaOKhFrJpQUHbaMHdnBfsk8iVAr1BzZmpthdz_O97gOw9NxCKJaMtENHp5Chug_5h7WwE6zky.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">Новые клавиши для скиллов 🔥
+
+Добавлена система подключения раз...</h4>
+                    <p class="news-block__text">Новые клавиши для скиллов 🔥
+
+Добавлена система подключения различных клавиш к активации скиллов. Задействовать можно большинство клавиш, что значительно расширит возможности активации, удобство, даст возможность создавать последовательные и понятные цепочки. 
+В меню настроек клавиш появился новый раздел, в нем настраивается соответствие клавиш. Установкой клавиш активации занимается тех админ, непосредственно при установке ...</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 25.07.2026 в 15:58</p>
+                    <a href="https://vk.com/mirtan?w=wall-137042283_18042" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div>            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/h3pYjPwMDKXdQU50BAZXkR9Mm-xMpMHFFTc3_7d23qbRUbiwYszapEQ0sdCKVFUQNUw4ZI8pqF4J4zNG-sSJYQJS.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">Муты в чате фракций ✨️
+
+По просьбе фракционного раздела, для ф...</h4>
+                    <p class="news-block__text">Муты в чате фракций ✨️
+
+По просьбе фракционного раздела, для фракций введен собственный функционал наказаний. Теперь можно выдавать мут определенному игроку из фракции, чтобы ограничить его доступ к фракционному чату на время.
+Команды:
+• /fmute &lt;срок&gt; &lt;игрок&gt; - выдает фракционный мут на время.
+• /unfmute &lt;игрок&gt; - снимает фракционный мут.
+- Доступ к командам есть у лидеров и замов.</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 21.07.2026 в 16:10</p>
+                    <a href="https://vk.com/mirtan?w=wall-137042283_18038" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div>            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/7ZB8tRSfM0sj0proJoE7brqQg5mfWY_zyf3dHjT1vYERUgJzaAaX5xen9ScHemDkPS37WD8IcY3K-bP9tQFWPSoh.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">Приветствуем! IC-раздел проекта провёл некоторую работу исходя...</h4>
+                    <p class="news-block__text">Приветствуем! IC-раздел проекта провёл некоторую работу исходя из пожеланий игроков. Были оформлены несколько новых памяток, благодаря которым игроки смогут глубже погрузится в РП-процесс. Также в Зал Славы было внесено три новых игрока после опроса среди старшей администрации. 
+*** 
+ 
+[🧿] Памятка по алхимии. До этой поры на форуме существовало лишь несколько неофициальных гайдов по данной роли, но теперь же было принято ре...</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 16.07.2026 в 17:29</p>
+                    <a href="https://vk.com/mirtan?w=wall-137042283_18036" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div></div><div id="news-antalor" class="news-tab-content" style="display: none; gap: 24px; flex-wrap: wrap; width: 100%;">            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/CueEaQj2fQdag6IbADhYxib_OymqwB7WG5gZ5YKxYJb1kna3jH8PlTEFwDOnm85AffSLUm4VpfPli7tpKCmXW8uh.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">[💬] — Открыты заявки на пост игрового модератора сервера Антал...</h4>
+                    <p class="news-block__text">[💬] — Открыты заявки на пост игрового модератора сервера Анталор! 
+ 
+[🔔] — Модератор - своего рода наставник для новичков. Перед написанием заявки вы должны осознавать ответственность за свои действия при работе с игроками, поскольку основной задачей является непосредственная коммуникация: ответы на вопросы по системным/ролевым механикам, правилам и памяткам. 
+ 
+[❓] — Основными критериями являются внимательность, заинтересо...</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 14.08.2026 в 13:17</p>
+                    <a href="https://vk.com/anthalor?w=wall-195538287_89" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div>            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/umeoMB7Qa-LFbN02v3dvqugBe35_Vu4TbdyILPolPM6WP3X-sR6ZUM7_Ey6Knd7fpisnoHTFG08vVgaT0pKOIKL-.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">Анталор открыт 🔥
+
+Добро пожаловать на материк. Вас ждут больши...</h4>
+                    <p class="news-block__text">Анталор открыт 🔥
+
+Добро пожаловать на материк. Вас ждут большие приключения и новые фракции, новые персонажи и никем незанятые ниши. Сервер пока стартует полностью чистым, свободным от чужих достижений.
+
+🎉 АКЦИИ В ЧЕСТЬ ДНЯ ОТКРЫТИЯ:
+• Промокод OPENANTHALOR дает скидку в 50% НА ВСЕ донат товары Анталора, ровно до 5 августа. anthalor.minefite.net
+• Скидка в 20% на заказ всех кастомов у тех админа до 5 августа!
+• Временное сн...</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 01.08.2026 в 18:05</p>
+                    <a href="https://vk.com/anthalor?w=wall-195538287_86" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div>            <div class="news-block" data-aos="fade-up">
+                <img loading="lazy" src="images/Mdy4-YUUhdpc-Fke62NUzixR_yyeghJJHCcsmQfkyT7dzyavateIERdbOMyOE3oBDxUYB56rZjUTkAICqUBYvior.jpg" alt="" class="news-block__image">
+                <div class="d-flex flex-column gap-12px">
+                    <h4 class="news-block__title">Улучшенные сеты брони 🔥
+
+Прямо перед открытием, в донат магази...</h4>
+                    <p class="news-block__text">Улучшенные сеты брони 🔥
+
+Прямо перед открытием, в донат магазин выходят улучшенные сеты брони. 
+В первую очередь это комплект с оружием и щитом, ставший заменой популярному "темному рыцарю". Далее идут улучшенные сеты под паладина и плута, которые мощнее базовых донатных.
+anthalor.minefite.net
+
+Ждем вас на открытии уже сегодня, в 18:00 по мск! Вы можете заранее регистрироваться, авторизовываться в лаунчере и скачивать клиен...</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-24px mt-auto">
+                    <p class="news-block__date"><i class="icon-calendar"></i> 01.08.2026 в 15:17</p>
+                    <a href="https://vk.com/anthalor?w=wall-195538287_85" target="_blank" class="button-new __outline __white">Перейти <i class="icon-arrow-right"></i></a>
+                </div>
+            </div></div>
+			</div>
+		</section>
+
+		<section class="section-another mt-100px">
+			<h1 class="section-another__title font-title" data-aos="fade-right">Топ донатеров</h1>
+
+			<div class="section-another__content sponsors">
+				
+            <div class="sponsors__lider __first" data-aos="fade-right">
+                <h5 class="sponsors__name">
+                    <img loading="lazy" src="sac.php" alt="">
+                    Laffia_Gardner
+                </h5>
+
+                <p class="sponsors__amount">1 млн. 5 тыс. ₽</p>
+            </div>            <div class="sponsors__lider __second" data-aos="fade-up">
+                <h5 class="sponsors__name">
+                    <img loading="lazy" src="sac_1.php" alt="">
+                    Gleb_Coper
+                </h5>
+
+                <p class="sponsors__amount">516,3 тыс. ₽</p>
+            </div>            <div class="sponsors__lider __third" data-aos="fade-left">
+                <h5 class="sponsors__name">
+                    <img loading="lazy" src="sac_2.php" alt="">
+                    Albert_Freids
+                </h5>
+
+                <p class="sponsors__amount">301 тыс. ₽</p>
+            </div>            <div class="sponsors__item" data-aos="fade-right">
+                <h5 class="sponsors__name">
+                    <img loading="lazy" src="sac_3.php" alt="">
+                    Alois_Rochefort
+                </h5>
+
+                <p class="sponsors__amount">293 тыс. ₽</p>
+            </div>            <div class="sponsors__item" data-aos="fade-left">
+                <h5 class="sponsors__name">
+                    <img loading="lazy" src="sac_4.php" alt="">
+                    Luis_Wagner
+                </h5>
+
+                <p class="sponsors__amount">210 тыс. ₽</p>
+            </div>
+<div class="modal fade" id="sponsorsModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal__content">
+            <button data-bs-dismiss="modal" aria-label="Close" class="bg-transparent" type="button" style="align-self: end;"><svg class="modal__content-closed">
+                    <use xlink:href="#closed"></use>
+                </svg></button>
+            <p class="modal__content-title">Список игроков, вошедших в топ донатеров.</p>
+            <p class="modal__content-desc">Вкладывая деньги в проект, вы напрямую влияете на его скорейшее и качественное развитие, продвигаете и популяризируете площадку ролевых серверов майнкрафт. Сюда попадают по личному обращению к <a href="https://vk.com/softbrulik">основателю проекта в вк</a>, с донатами от 10.000 рублей.</p>
+            <div class="modal__content-body gap-1">
+                <div class="sponsors">
+                    
+            <div class="sponsors__block">
+                <img src="sac.php" alt="Laffia_Gardner" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Laffia_Gardner</p>
+                    <p class="sponsors__block-summ">1 млн. 5 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_1.php" alt="Gleb_Coper" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Gleb_Coper</p>
+                    <p class="sponsors__block-summ">516,3 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_2.php" alt="Albert_Freids" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Albert_Freids</p>
+                    <p class="sponsors__block-summ">301 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_3.php" alt="Alois_Rochefort" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Alois_Rochefort</p>
+                    <p class="sponsors__block-summ">293 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_4.php" alt="Luis_Wagner" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Luis_Wagner</p>
+                    <p class="sponsors__block-summ">210 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_5.php" alt="Mikka" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Mikka</p>
+                    <p class="sponsors__block-summ">197 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_6.php" alt="Yuki" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Yuki</p>
+                    <p class="sponsors__block-summ">138,9 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_7.php" alt="Nisarium" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Nisarium</p>
+                    <p class="sponsors__block-summ">136,2 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_8.php" alt="Edmund_Nightfall" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Edmund_Nightfall</p>
+                    <p class="sponsors__block-summ">130,3 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_9.php" alt="Erich_Clausewiz" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Erich_Clausewiz</p>
+                    <p class="sponsors__block-summ">87,5 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_10.php" alt="Karl_Gus" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Karl_Gus</p>
+                    <p class="sponsors__block-summ">85 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_11.php" alt="Aldron" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Aldron</p>
+                    <p class="sponsors__block-summ">60,5 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_12.php" alt="Tedjet_Jogati" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Tedjet_Jogati</p>
+                    <p class="sponsors__block-summ">60,4 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_13.php" alt="Ilig_Everon" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Ilig_Everon</p>
+                    <p class="sponsors__block-summ">56,6 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_14.php" alt="Basar" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Basar</p>
+                    <p class="sponsors__block-summ">55 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_15.php" alt="Aulendil" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Aulendil</p>
+                    <p class="sponsors__block-summ">52,5 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_16.php" alt="Halfdene_Gisbatt" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Halfdene_Gisbatt</p>
+                    <p class="sponsors__block-summ">50,8 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_17.php" alt="Gidess" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Gidess</p>
+                    <p class="sponsors__block-summ">36 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_19.php" alt="Paul_Lugner" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Paul_Lugner</p>
+                    <p class="sponsors__block-summ">26,9 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_18.php" alt="Esmond_Blake" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Esmond_Blake</p>
+                    <p class="sponsors__block-summ">26 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_20.php" alt="Varus_Beretif" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Varus_Beretif</p>
+                    <p class="sponsors__block-summ">24 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_21.php" alt="Marcus_Celestium" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Marcus_Celestium</p>
+                    <p class="sponsors__block-summ">21,3 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_23.php" alt="Rykard" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Rykard</p>
+                    <p class="sponsors__block-summ">20,2 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_22.php" alt="David_Allen" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">David_Allen</p>
+                    <p class="sponsors__block-summ">19,6 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_24.php" alt="Raum" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Raum</p>
+                    <p class="sponsors__block-summ">16 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_25.php" alt="Rene_de_la_Marck" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Rene_de_la_Marck</p>
+                    <p class="sponsors__block-summ">15,7 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_26.php" alt="Roze_Viskande" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Roze_Viskande</p>
+                    <p class="sponsors__block-summ">14 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_28.php" alt="Paul_Blackwood" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Paul_Blackwood</p>
+                    <p class="sponsors__block-summ">13,8 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_27.php" alt="Airo_Gosen" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Airo_Gosen</p>
+                    <p class="sponsors__block-summ">11,2 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_29.php" alt="Floki" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Floki</p>
+                    <p class="sponsors__block-summ">10 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_30.php" alt="Helin_Lidcroft" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Helin_Lidcroft</p>
+                    <p class="sponsors__block-summ">6,1 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_31.php" alt="GoloGo" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">GoloGo</p>
+                    <p class="sponsors__block-summ">6 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_32.php" alt="Artemis_Foul" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Artemis_Foul</p>
+                    <p class="sponsors__block-summ">5 тыс. ₽</p>
+                </div>
+            </div>
+            <div class="sponsors__block">
+                <img src="sac_33.php" alt="Lenor_DeFusse" class="sponsors__block-skin">
+                <div class="sponsors__block-data">
+                    <p class="sponsors__block-nick">Lenor_DeFusse</p>
+                    <p class="sponsors__block-summ">2,9 тыс. ₽</p>
+                </div>
+            </div>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+			</div>
+
+			<button class="button-new __outline __white ms-auto" onclick="openSponsors()" data-aos="fade-left">
+				Открыть список <i class="icon-open-all"></i>
+			</button>
+		</section>
+		<section class="section-another mt-100px" id="top-online">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-24px">
+				<h1 class="section-another__title font-title mb-0" data-aos="fade-right">
+					Топ по онлайну
+				</h1>
+				
+				<div class="d-flex gap-24px align-items-center">
+					<div class="top-online-dropdown" id="onlineServerDropdown">
+						<input type="hidden" id="online-server-select" value="s1">
+						<a class="nav-header_link line-hover rotate-icon top-online-dropdown__btn" onclick="window.toggleOnlineDropdown(event)">
+							<span id="online-server-text">Миртан</span> 
+							<i class="icon-mark-down"></i>
+						</a>
+						<div class="top-online-dropdown__menu" id="onlineServerMenu">
+							<a class="top-online-dropdown__item" onclick="changeOnlineServer('s1', 'Миртан')">Миртан</a>
+							<a class="top-online-dropdown__item" onclick="changeOnlineServer('s15', 'Анталор')">Анталор</a>
+						</div>
+					</div>
+					<div class="news-tabs d-flex gap-12px">
+						<button class="button-new __primary tab-btn" id="btn-period-month" onclick="switchOnlinePeriod('month')">За месяц</button>
+						<button class="button-new __outline __white tab-btn" id="btn-period-year" onclick="switchOnlinePeriod('year')">За год</button>
+					</div>
+				</div>
+			</div>
+
+            <div class="section-another__content mt-24px">
+                <div class="top-online" id="top-online-content" style="width: 100%;"><div class="text-center" style="color: rgba(255,255,255,0.5);">Загрузка данных...</div></div>
+            </div>
+
+			<button class="button-new __outline __white ms-auto" onclick="openTopOnline()" data-aos="fade-left">
+				Открыть список <i class="icon-open-all"></i>
+			</button>
+        </section>
+	</div>
+</main>
+
+<script>
+function switchNewsTab(tab) {
+    document.querySelectorAll('.news-tab-content').forEach(el => el.style.display = 'none');
+    document.getElementById('news-' + tab).style.display = 'flex';
+    
+    let btnMirtan = document.getElementById('btn-mirtan');
+    let btnAntalor = document.getElementById('btn-antalor');
+    
+    if (tab === 'mirtan') {
+        btnMirtan.className = 'button-new __primary tab-btn';
+        btnAntalor.className = 'button-new __outline __white tab-btn';
+    } else {
+        btnMirtan.className = 'button-new __outline __white tab-btn';
+        btnAntalor.className = 'button-new __primary tab-btn';
+    }
+}
+</script>
+
+<script>
+let currentOnlinePeriod = 'month';
+
+function switchOnlinePeriod(period) {
+    currentOnlinePeriod = period;
+    
+    let btnMonth = document.getElementById('btn-period-month');
+    let btnYear = document.getElementById('btn-period-year');
+    
+    if (period === 'month') {
+        btnMonth.className = 'button-new __primary tab-btn';
+        btnYear.className = 'button-new __outline __white tab-btn';
+    } else {
+        btnMonth.className = 'button-new __outline __white tab-btn';
+        btnYear.className = 'button-new __primary tab-btn';
+    }
+    
+    loadTopOnline();
+}
+
+function loadTopOnline() {
+    let server = document.getElementById('online-server-select').value;
+    let contentDiv = document.getElementById('top-online-content');
+    
+    contentDiv.innerHTML = '<div class="text-center" style="color: rgba(255,255,255,0.5);">Загрузка данных...</div>';
+    
+    let xhr = new XMLHttpRequest();
+    xhr.open('POST', '/engine/ajax/top_online.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            let resp = xhr.responseText;
+            if(resp.trim() === '') {
+                 contentDiv.innerHTML = '<div class="text-center" style="color: rgba(255,255,255,0.5);">Нет данных для отображения</div>';
+                 return;
+            }
+
+            // For simple HTML list, just insert directly
+            contentDiv.innerHTML = resp;
+        } else {
+            contentDiv.innerHTML = '<div class="text-center" style="color: #ff4c4c;">Ошибка загрузки данных</div>';
+        }
+    };
+    
+    xhr.send('server=' + server + '&period=' + currentOnlinePeriod);
+}
+
+function openTopOnline() {
+    var modalEl = document.getElementById('topOnlineModal');
+    var modalContent = document.getElementById('top-online-modal-content');
+    var server = document.getElementById('online-server-select').value;
+    
+    modalContent.innerHTML = 'Загрузка...';
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/engine/ajax/top_online.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            modalContent.innerHTML = xhr.responseText;
+        } else {
+            modalContent.innerHTML = 'Ошибка загрузки данных';
+        }
+    };
+    
+    // Отправляем параметр mode=modal, чтобы PHP отдал 30 мест
+    xhr.send('server=' + server + '&period=' + currentOnlinePeriod + '&mode=modal');
+    
+    // Защита от дублирования модальных окон
+    var modal = bootstrap.Modal.getInstance(modalEl);
+    if (!modal) {
+        modal = new bootstrap.Modal(modalEl);
+    }
+    modal.show();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    loadTopOnline();
+});
+
+window.toggleOnlineDropdown = function(event) {
+    event.stopPropagation();
+    document.getElementById('onlineServerMenu').classList.toggle('active');
+};
+
+function changeOnlineServer(value, text) {
+    document.getElementById('online-server-select').value = value;
+    document.getElementById('online-server-text').innerText = text;
+    document.getElementById('onlineServerMenu').classList.remove('active');
+    loadTopOnline();
+}
+
+document.addEventListener('click', function(e) {
+    const dropdown = document.getElementById('onlineServerDropdown');
+    if (dropdown && dropdown.contains(e.target) === false) {
+        document.getElementById('onlineServerMenu').classList.remove('active');
+    }
+});
+</script>
+
+<div class="modal fade" id="topOnlineModal" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal__content">
+            <button data-bs-dismiss="modal" aria-label="Close" class="bg-transparent" type="button" style="align-self: end;">
+                <svg class="modal__content-closed"><use xlink:href="#closed"></use></svg>
+            </button>
+            <p class="modal__content-title">Топ-30 игроков по онлайну</p>
+            <p class="modal__content-desc">Список игроков, которые провели больше всего времени на сервере. Считается только время фактического нахождения в игре.</p>
+            <div class="modal__content-body gap-1">
+                <div class="top-online-modal" id="top-online-modal-content">
+                    Загрузка...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        ﻿<footer class="footer">
+    <div class="container-md">
+        <div class="footer-top">
+            <div class="footer-copyright" data-aos="fade-right">
+                <a href="/" class="footer-logo">
+                    <img src="images/logo-with-background.png" alt="">
+                    MINEFITE
+                </a>
+
+                <div class="footer-copyright_text">
+                    <p class="fw-semibold">©MINEFITE <span id="currentYear"></span></p>
+                    <p>Доберемся до тех, кто копирует нас.</p>
+                </div>
+            </div>
+
+            <div class="footer-menu" data-aos="fade-left">
+                <div class="footer-nav">
+                    <a href="/" class="footer-nav_title __hover line-hover">
+                        MINEFITE <i class="icon-link"></i>
+                    </a>
+                    <nav class="nav-footer">
+                        <a href="https://vk.com/minefite" target="_blank" class="nav-footer_link line-hover">Основная группа</a>
+                        <a href="https://forum.minefite.net/" target="_blank" class="nav-footer_link line-hover">Форум</a>
+                        <a href="https://vk.me/join/4_IOgYUDLLRwcAMbo/fCN8xlDc/gZQdpAcs=" target="_blank" class="nav-footer_link line-hover">Тех поддержка</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-line">
+
+        <div class="footer-bottom">
+            <div class="footer-launcher" data-aos="fade-right">
+                <h2 class="footer-launcher_title">
+                    Наш<br>
+                    собственный<br>
+                    лаунчер<br>
+                    для игры
+                </h2>
+
+                <button class="button-new __primary" onclick="openDownload()">
+                    Загрузить <i class="icon-download"></i>
+                </button>
+            </div>
+
+            <div class="footer-nav" data-aos="fade-left">
+                 <nav class="nav-footer">
+                    <a href="/uploads/oferta_540553111008.pdf" class="nav-footer_link line-hover">Оферта</a>
+                </nav> 
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <div class="scroll-buttons justify-content-center __hidden" id="scrollButtons">
+            
+            <button class="button-new __primary" onclick="openRegister()">
+                Начать игру
+                <i class="icon-play-start"></i>
+            </button>
+            
+            <button onclick="scrollToTop()" class="button-new __outline __white __opacity">Наверх</button>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered auth-modal">
+            <form action="#" id="authorizationForm" class="modal-content auth-modal__content">
+                <button type="button" class="button-new __outline __white __opacity auth-modal__close" data-bs-dismiss="modal">
+                    <i class="icon-close"></i>
+                </button>
+
+                <div class="auth-modal__title">
+                    <h2 class="auth-modal__name">Вход</h2>
+                    <i class="icon-separation"></i>
+                    <button type="button" onclick="openRegister()" class="auth-modal__name __hover line-hover">
+                        Регистрация
+                        <i class="icon-link"></i>
+                    </button>
+                </div>
+
+                <div class="d-flex flex-column gap-14px">
+                    <div class="auth-modal__input">
+                        <label for="name">Никнейм</label>
+                        <input type="text" name="name" id="name" placeholder="Ваш никнейм" autocomplete="name nickname username" required="">
+                    </div>
+                    <div class="auth-modal__input">
+                        <label for="password">Пароль</label>
+                        <input type="password" name="password" id="password" placeholder="Введите пароль" autocomplete="current-password" required="">
+                        <button type="button" class="button-new __outline __white __opacity togglePassword">
+                            <i class="icon-noview"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-between gap-14px">
+                    <button class="button-new __primary w-100" type="button" onclick="authorization()">Войти</button>
+                    <a href="/?do=lostpassword" class="auth-modal__link line-hover">Забыли пароль?</a>
+                    <button class="auth-modal__link line-hover" type="button" onclick="openRegister()">
+                        Зарегистрироваться <i class="icon-link"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="login2FAModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered auth-modal __mini">
+            <form action="#" id="code2faAuthForm" class="modal-content auth-modal__content">
+                <button type="button" class="button-new __outline __white __opacity auth-modal__close" data-bs-dismiss="modal">
+                    <i class="icon-close"></i>
+                </button>
+
+                <div class="auth-modal__title __with-desc">
+                    <h2 class="auth-modal__name">Двухфакторная авторизация</h2>
+                    <p class="auth-modal__description">Введите код авторизации из Google/Yandex/др. Authenticator.</p>
+                </div>
+
+                <div class="auth-modal__input __code">
+                    <input type="text" inputmode="numeric" minlength="6" maxlength="6" name="authCode2fa" id="authCode2fa" placeholder="------" required="">
+                </div>
+
+                <button type="button" onclick="code2faAuth()" class="button-new __outline __white w-100">
+                    Войти <i class="icon-arrow-right"></i>
+                </button>
+
+                <div id="code2faAuthData" class="d-none"></div>
+            </form>
+        </div>
+    </div>
+
+    <div id="authorization_info" class="d-none"></div>
+    
+
+    <div class="modal fade" id="startgame" aria-labelledby="exampleModalToggleLabel" tabindex="-1" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal__content">
+                <button data-bs-dismiss="modal" aria-label="Close" class="modal__content-button bg-transparent" type="button">
+                    <svg class="modal__content-closed">
+                        <use xlink:href="#closed"></use>
+                    </svg>
+                </button>
+                <div class="modal__content-title">
+                    <p>Как начать играть на Minefite RP?</p>
+                    <p class="startgame__subtitle">Погрузись в атмосферу средневекового мира за несколько шагов!</p>
+                </div>
+                <div class="modal__content-body">
+                    <div class="startgame__container">
+                        <div class="startgame__content">
+                            <ol class="startgame__steps">
+                                <li>
+                                    <h3>Регистрация</h3>
+                                    <p>Нажми «Регистрация», придумай никнейм в духе средневекового фэнтези. 
+                                    Прочти правила проекта или краткую памятку по тестированию и успешно сдай тест.</p>
+                                </li>
+                                <li>
+                                    <h3>Установка лаунчера</h3>
+                                    <p>Скачай лоадер Minefite для автоматической установки, либо просто лаунчер. 
+                                    Оставь рекомендуемые моды или настрой список модификаций в лаунчере под себя.</p>
+                                </li>
+                                <li>
+                                    <h3>Настройки графики</h3>
+                                    <p>Выбери в игре набор ресурспаков, который тебе нравится, регулируй настройки для повышения ФПС. 
+                                    Лёгкий пак — для слабых систем. Конвгест — для более мощных. Вместе с ними можно настроить и шейдеры.</p>
+                                </li>
+                                <li>
+                                    <h3>Первые шаги в мире</h3>
+                                    <p>Выбери локацию и возьми стартовые предметы, включая систему наград. 
+                                    Изучи гайды по команде /newinfo и вступительные сообщения в чате. 
+                                    Начни изучать мир, системы проекта. Вступай во фракцию, чтобы твоя игра стала активной. 
+                                    На <a href="https://map.minefite.net/" class="line-hover">онлайн карте</a> можно найти самые важные и интересные места.</p>
+                                </li>
+                                <li>
+                                    <h3>Помощь</h3>
+                                    <p>Если есть проблемы или вопросы в игре, можно обратиться в /ask с вопросом к администрации. 
+                                    Если проблемы до входа в игру или иные, 
+                                    <a href="https://vk.me/join/4_IOgYUDLLRwcAMbo/fCN8xlDc/gZQdpAcs=" class="line-hover">беседа вопросов и проблем VK</a> всегда ждёт вас.</p>
+                                </li>
+                            </ol>
+                            <div class="startgame__image">
+                                <img src="images/sunset_ship.jpg">
+                            </div>
+                        </div>
+                        <div class="startgame__button">
+                            <a href="/reg.html" class="button-new __primary">Перейти к регистрации</a>
+                            <div>
+                                <a href="https://forum.minefite.net/topic/3531-правила-игрового-сервера-миртан/" class="line-hover"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.38224 3.5293H6.5293C4.87245 3.5293 3.5293 4.87244 3.5293 6.52929L3.5293 13.4705C3.5293 15.1273 4.87244 16.4705 6.5293 16.4705H9.99988H13.4705C15.1273 16.4705 16.4705 15.1273 16.4705 13.4705V11.4782M11.6175 3.5293H16.4705M16.4705 3.5293V8.35902M16.4705 3.5293L8.78665 11.1764" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Правила сервера</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="launcher" aria-labelledby="exampleModalToggleLabel" tabindex="-1" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal__content">
+                <button data-bs-dismiss="modal" aria-label="Close" class="bg-transparent" type="button">
+                    <svg class="modal__content-closed">
+                        <use xlink:href="#closed"></use>
+                    </svg>
+                </button>
+                <p class="modal__content-title">Загрузка лаунчера MineFite</p>
+                <div class="modal__content-body launch">
+                    <div class="launch__full launch__item launch__new">
+                        <div class="launch__item-title">
+                            <img src="images/newwindows.png" alt="Новый установщик лаунчера для Windows" class="launch__item-img">
+                            <div class="launch__item-name">
+                                <p>Лаунчер Minefite</p>
+                                <span>Для <img src="images/windows_text.svg" alt="Windows"></span>
+                            </div>
+                        </div>
+
+                        <a href="https://updater.minefite.net/Minefite.exe" download="" class="button">
+                            <img src="images/download-launcher.svg" alt="">
+                            <span>Скачать лаунчер для Windows</span>
+                        </a>
+                    </div>
+
+                    <div class="launch__block">
+                        <div class="launch__half launch__item launch__new">
+                            <div class="launch__item-title">
+                                <img src="images/new_macos.png" alt="Новый лаунчер для MacOS" class="launch__item-img">
+                                <div class="launch__item-name">
+                                    <p>Лоадер MineFite v3.4.2</p>
+                                    <span>Для <img src="images/macos_text.svg" alt="MacOS"></span>
+                                </div>
+                            </div>
+
+                            <a href="https://updater.minefite.net/loader/darwin/Minefite.Loader_universal.app.tar.gz" download="" class="button p-3">
+                                <img src="images/download-launcher.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="launch__half launch__item launch__new">
+                            <div class="launch__item-title">
+                                <img src="images/new_linux.png" alt="Новый лаунчер для Linux" class="launch__item-img">
+                                <div class="launch__item-name">
+                                    <p>Лоадер MineFite v3.4.2</p>
+                                    <span>Для <img src="images/linux_text.svg" alt="Linux"></span>
+                                </div>
+                            </div>
+
+                            <a href="https://updater.minefite.net/loader/linux/Minefite Loader.AppImage" download="" class="button p-3">
+                                <img src="images/download-launcher.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="https://updater.minefite.net/loader/windows/Minefite Loader.msi" download="" class="button__new pt-2 pb-2 m-auto" style="width: fit-content;">
+                        Скачать лоадер для Windows, в случае проблем с лаунчером
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="serverModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content auth-modal__content" style="background: transparent; border: 0; box-shadow: none;">
+                <div class="container-fluid d-flex justify-content-center flex-nowrap" style="gap: 24px;">
+                    <div class="mirtan-promo" style="flex: 1;">
+                        <img loading="lazy" src="images/mirtan-promo.jpg" alt="" class="mirtan-promo__image">
+
+                        <div class="d-flex flex-column gap-6px align-items-center">
+                            <h1 class="mirtan-promo__title font-another">Миртан</h1>
+                            <p class="mirtan-promo__description">Крупный средневеково-фентезийный Role Play сервер.</p>
+                        </div>
+
+                        <button type="button" onclick="goToReg('Mirtan')" class="button-new __primary w-100" style="margin-top: 15px;">
+                            Выбрать <i class="icon-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="mirtan-promo" style="flex: 1;">
+                        <img loading="lazy" src="images/anthalor-promo.jpg" alt="" class="mirtan-promo__image">
+
+                        <div class="d-flex flex-column gap-6px align-items-center">
+                            <h1 class="mirtan-promo__title font-another">Анталор</h1>
+                            <p class="mirtan-promo__description">Новый средневеково-фентезийный Role Play сервер.</p>
+                        </div>
+
+                        <button type="button" onclick="goToReg('Anthalor')" class="button-new __primary w-100" style="margin-top: 15px;">
+                            Выбрать <i class="icon-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/mainlalala210.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <!-- <script src="/ExtraModules/template/js/sfkmdsh732ghads.js"></script> -->
+
+    <!--<script src="/templates/default/assets/js/scripts.js"></script> -->
+
+    <script src="js/scripts.js"></script>
+
+    <!-- <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            }
+            m[i].l = 1 * new Date()
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k,
+                a)
+        })
+            (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym")
+
+        ym(89667248, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script> -->
+
+    <!-- Yandex.Metrika counter -->
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89667248" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- ================ SVG ================ -->
+    <svg display="none">
+        <symbol id="closed" viewBox="0 0 21 23">
+            <path d="M1 1.50208L10.5 11.5117M20 21.5213L10.5 11.5117M10.5 11.5117L20 1.50208M10.5 11.5117L1 21.5213" stroke-width="2"></path>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol id="mon__online" viewBox="0 0 17 17">
+            <path d="M16 16H14.9286V13.1875C14.9277 12.4419 14.6452 11.727 14.1431 11.1997C13.641 10.6725 12.9601 10.3759 12.25 10.375V9.25C13.2442 9.25119 14.1974 9.66642 14.9004 10.4046C15.6034 11.1427 15.9989 12.1436 16 13.1875V16Z"></path>
+            <path d="M11.5 16H10.45V13.1875C10.4492 12.4419 10.1723 11.727 9.68023 11.1997C9.18813 10.6725 8.52094 10.3759 7.825 10.375H4.675C3.97906 10.3759 3.31187 10.6725 2.81977 11.1997C2.32766 11.727 2.05083 12.4419 2.05 13.1875V16H1V13.1875C1.00111 12.1436 1.38866 11.1427 2.07761 10.4046C2.76657 9.66642 3.70067 9.25119 4.675 9.25H7.825C8.79933 9.25119 9.73343 9.66642 10.4224 10.4046C11.1113 11.1427 11.4989 12.1436 11.5 13.1875V16Z"></path>
+            <path d="M10.75 1V2.07143C11.4604 2.07143 12.1417 2.35363 12.644 2.85596C13.1464 3.35829 13.4286 4.0396 13.4286 4.75C13.4286 5.4604 13.1464 6.14171 12.644 6.64404C12.1417 7.14637 11.4604 7.42857 10.75 7.42857V8.5C11.7446 8.5 12.6984 8.10491 13.4017 7.40165C14.1049 6.69839 14.5 5.74456 14.5 4.75C14.5 3.75544 14.1049 2.80161 13.4017 2.09835C12.6984 1.39509 11.7446 1 10.75 1Z"></path>
+            <path d="M6.25 2.07143C6.77977 2.07143 7.29765 2.22852 7.73813 2.52285C8.17862 2.81717 8.52194 3.23551 8.72468 3.72495C8.92741 4.2144 8.98046 4.75297 8.8771 5.27256C8.77375 5.79215 8.51864 6.26943 8.14404 6.64403C7.76943 7.01864 7.29216 7.27375 6.77256 7.3771C6.25297 7.48046 5.7144 7.42741 5.22496 7.22468C4.73551 7.02194 4.31718 6.67862 4.02285 6.23813C3.72853 5.79764 3.57143 5.27977 3.57143 4.75C3.57143 4.0396 3.85364 3.35829 4.35597 2.85596C4.85829 2.35363 5.5396 2.07143 6.25 2.07143ZM6.25 1C5.50832 1 4.7833 1.21993 4.16661 1.63199C3.54993 2.04404 3.06928 2.62971 2.78545 3.31494C2.50162 4.00016 2.42736 4.75416 2.57206 5.48159C2.71675 6.20902 3.0739 6.8772 3.59835 7.40165C4.1228 7.9261 4.79098 8.28325 5.51841 8.42794C6.24584 8.57264 6.99984 8.49837 7.68506 8.21455C8.37029 7.93072 8.95596 7.45007 9.36801 6.83339C9.78007 6.2167 10 5.49168 10 4.75C10 3.75544 9.60491 2.80161 8.90165 2.09835C8.19839 1.39509 7.24456 1 6.25 1Z"></path>
+            <path d="M16 16.125H16.125V16V13.1875V13.1874C16.1238 12.1122 15.7166 11.0804 14.9909 10.3184C14.265 9.55618 13.2795 9.12623 12.2501 9.125L12.125 9.12485V9.25V10.375V10.4998L12.2498 10.5C12.9249 10.5008 13.5733 10.7827 14.0526 11.286C14.532 11.7894 14.8028 12.4732 14.8036 13.1876V16V16.125H14.9286H16ZM11.5 16.125H11.625V16V13.1875V13.1874C11.6239 12.113 11.2251 11.0814 10.5138 10.3193C9.80218 9.55687 8.83547 9.12624 7.82515 9.125H7.825H4.675H4.67485C3.66453 9.12624 2.69782 9.55687 1.98623 10.3193C1.27491 11.0814 0.876144 12.113 0.875 13.1874V13.1875V16V16.125H1H2.05H2.175V16L2.175 13.1876C2.175 13.1876 2.175 13.1876 2.175 13.1875C2.17583 12.4724 2.44143 11.7883 2.91115 11.285C3.38061 10.782 4.01521 10.5008 4.67516 10.5H7.82484C8.48479 10.5008 9.11939 10.782 9.58885 11.285C10.0586 11.7883 10.3242 12.4724 10.325 13.1876V16V16.125H10.45H11.5ZM10.75 0.875H10.625V1V2.07143V2.19643H10.75C11.4272 2.19643 12.0768 2.46546 12.5556 2.94435C13.0345 3.42324 13.3036 4.07275 13.3036 4.75C13.3036 5.42725 13.0345 6.07676 12.5556 6.55565C12.0768 7.03454 11.4272 7.30357 10.75 7.30357H10.625V7.42857V8.5V8.625H10.75C11.7777 8.625 12.7633 8.21674 13.49 7.49004C14.2167 6.76334 14.625 5.77771 14.625 4.75C14.625 3.72229 14.2167 2.73666 13.49 2.00996C12.7633 1.28326 11.7777 0.875 10.75 0.875ZM6.25 2.19643C6.75505 2.19643 7.24876 2.34619 7.66869 2.62678C8.08862 2.90737 8.41592 3.30619 8.60919 3.77279C8.80247 4.23939 8.85304 4.75283 8.75451 5.24818C8.65598 5.74352 8.41277 6.19852 8.05565 6.55565C7.69852 6.91277 7.24352 7.15597 6.74818 7.2545C6.25283 7.35303 5.7394 7.30246 5.27279 7.10919C4.80619 6.91592 4.40737 6.58862 4.12678 6.16869C3.84619 5.74875 3.69643 5.25505 3.69643 4.75C3.69643 4.07275 3.96547 3.42324 4.44435 2.94435C4.92324 2.46546 5.57275 2.19643 6.25 2.19643ZM6.25 0.875C5.4836 0.875 4.73441 1.10226 4.09717 1.52806C3.45993 1.95385 2.96326 2.55904 2.66997 3.2671C2.37668 3.97516 2.29994 4.7543 2.44946 5.50597C2.59898 6.25765 2.96803 6.94811 3.50996 7.49004C4.05189 8.03197 4.74235 8.40102 5.49403 8.55054C6.2457 8.70006 7.02484 8.62332 7.7329 8.33003C8.44096 8.03674 9.04615 7.54007 9.47194 6.90283C9.89774 6.26559 10.125 5.5164 10.125 4.75C10.125 3.72229 9.71674 2.73666 8.99004 2.00996C8.26334 1.28326 7.27771 0.875 6.25 0.875Z" stroke-width="0.25"></path>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol id="logout" viewBox="0 0 18 21">
+            <path d="M2 6.27778C2 6.83006 2.44772 7.27778 3 7.27778C3.55228 7.27778 4 6.83006 4 6.27778H2ZM4 14.7222C4 14.1699 3.55228 13.7222 3 13.7222C2.44772 13.7222 2 14.1699 2 14.7222H4ZM1 9.5C0.447715 9.5 0 9.94771 0 10.5C0 11.0523 0.447715 11.5 1 11.5V9.5ZM14 10.5L14.726 11.1877C15.0913 10.802 15.0913 10.198 14.726 9.81225L14 10.5ZM10.726 5.59003C10.3461 5.1891 9.71319 5.17199 9.31225 5.55183C8.91132 5.93166 8.89422 6.56459 9.27405 6.96552L10.726 5.59003ZM9.27405 14.0345C8.89422 14.4354 8.91132 15.0683 9.31225 15.4482C9.71319 15.828 10.3461 15.8109 10.726 15.41L9.27405 14.0345ZM4 6.27778V4H2V6.27778H4ZM6 2H14V0H6V2ZM16 4V17H18V4H16ZM14 19H6V21H14V19ZM4 17V14.7222H2V17H4ZM1 11.5H14V9.5H1V11.5ZM14.726 9.81225L10.726 5.59003L9.27405 6.96552L13.274 11.1877L14.726 9.81225ZM13.274 9.81225L9.27405 14.0345L10.726 15.41L14.726 11.1877L13.274 9.81225ZM6 19C4.89543 19 4 18.1046 4 17H2C2 19.2091 3.79086 21 6 21V19ZM16 17C16 18.1046 15.1046 19 14 19V21C16.2091 21 18 19.2091 18 17H16ZM14 2C15.1046 2 16 2.89543 16 4H18C18 1.79086 16.2091 0 14 0V2ZM4 4C4 2.89543 4.89543 2 6 2V0C3.79086 0 2 1.79086 2 4H4Z"></path>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol id="login__balance_info" viewBox="0 0 12 12">
+            <path d="M7.842 5.55L7.302 6.102C6.87 6.534 6.6 6.9 6.6 7.8H5.4V7.5C5.4 6.834 5.67 6.234 6.102 5.802L6.846 5.046C7.068 4.83 7.2 4.53 7.2 4.2C7.2 3.88174 7.07357 3.57652 6.84853 3.35147C6.62348 3.12643 6.31826 3 6 3C5.68174 3 5.37652 3.12643 5.15147 3.35147C4.92643 3.57652 4.8 3.88174 4.8 4.2H3.6C3.6 3.56348 3.85286 2.95303 4.30294 2.50294C4.75303 2.05286 5.36348 1.8 6 1.8C6.63652 1.8 7.24697 2.05286 7.69706 2.50294C8.14714 2.95303 8.4 3.56348 8.4 4.2C8.39914 4.70594 8.19861 5.1911 7.842 5.55V5.55ZM6.6 10.2H5.4V9H6.6V10.2ZM6 0C5.21207 0 4.43185 0.155195 3.7039 0.456723C2.97595 0.758251 2.31451 1.20021 1.75736 1.75736C0.632141 2.88258 0 4.4087 0 6C0 7.5913 0.632141 9.11742 1.75736 10.2426C2.31451 10.7998 2.97595 11.2417 3.7039 11.5433C4.43185 11.8448 5.21207 12 6 12C7.5913 12 9.11742 11.3679 10.2426 10.2426C11.3679 9.11742 12 7.5913 12 6C12 2.682 9.3 0 6 0Z" fill="white" fill-opacity="0.5"></path>
+        </symbol>
+    </svg>
+    <svg display="none">
+        <symbol id="regcloak" viewBox="0 0 17 17">
+            <g clip-path="url(#clip0_2055_2096)">
+                <path d="M8.49984 15.5832C12.412 15.5832 15.5832 12.412 15.5832 8.49984C15.5832 4.58771 12.412 1.4165 8.49984 1.4165C4.58771 1.4165 1.4165 4.58771 1.4165 8.49984C1.4165 12.412 4.58771 15.5832 8.49984 15.5832Z" style="stroke:var(--def1-color);" stroke-width="1.41667" stroke-linejoin="round"></path>
+                <path d="M8.50244 4.25V8.50354L11.5054 11.5069" style="stroke:var(--def1-color);" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <defs>
+                <clipPath id="clip0_2055_2096">
+                    <rect width="17" height="17" style="fill:var(--def1-color);"></rect>
+                </clipPath>
+            </defs>
+        </symbol>
+    </svg>
+
+
+
+
+
+</body></html><!-- Made at ExtraStudio (https://extrastudio.ru/) -->

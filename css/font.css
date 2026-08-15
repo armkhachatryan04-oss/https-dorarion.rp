@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Black'), local('Gilroy-Black'),
+      url('../fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+      url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+      url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+      url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+      url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'minefite-icons-new';
+  src:  url('../fonts/minefite-icons-new.eot');
+  src:  url('../fonts/minefite-icons-new.eot#iefix') format('embedded-opentype'),
+    url('../fonts/minefite-icons-new.ttf') format('truetype'),
+    url('../fonts/minefite-icons-new.woff') format('woff'),
+    url('../images/minefite-icons-new.svg#minefite-icons-new') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.new-icons:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'minefite-icons-new' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  transition: 0s all !important;
+  line-height: 1;
+}
+
+.new-icon__adminpanel:before {
+  content: "\e900";
+}
+.new-icon__arrow-right:before {
+  content: "\e901";
+}
+.new-icon__arrow-target:before {
+  content: "\e902";
+}
+.new-icon__dark:before {
+  content: "\e903";
+}
+.new-icon__download:before {
+  content: "\e904";
+}
+.new-icon__forum:before {
+  content: "\e905";
+}
+.new-icon__light:before {
+  content: "\e906";
+}
+.new-icon__rules:before {
+  content: "\e907";
+}
+.new-icon__sponsorship:before {
+  content: "\e908";
+}
+.new-icon__startgame .path1:before {
+  content: "\e909";
+  color: rgb(226, 181, 58);
+}
+.new-icon__startgame .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.new-icon__startgame .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.new-icon__startgame .path4:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.new-icon__startgame .path5:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.new-icon__startgame .path6:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.new-icon__user:before {
+  content: "\e90f";
+}
+.new-icon__user-mini:before {
+  content: "\e910";
+}
