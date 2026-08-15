@@ -12369,9 +12369,9 @@ template {
   display: flex;
   flex-direction: column;
   gap: 0;
-  padding: 55px 1px 81px;
+  padding: 55px 30px 81px;
   background-color: #181A20;
-  background-image: url(../images/minefite-block.webp);
+  background-image: url(../images/bg.jpg);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
